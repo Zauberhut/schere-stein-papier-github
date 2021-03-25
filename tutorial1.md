@@ -15,10 +15,14 @@ Für Deinen Schrittzähler benötigst Du eine Variable ``||variable:step||``. In
 
 ```template
 let step = 0
+
 ```
+
 ```blocks
-let step = 0
+step = 0
 step += 1
+let step = 0
+
 ```
 
 
@@ -47,8 +51,8 @@ let step = 0
 input.onGesture(Gesture.Shake, function () {
     step += 1
 })
-basic.forever(function() {
-    basic.showNumber(step)
+input.onButtonPressed(Button.A, () => {
+    basic.showNumber(step);
 })
 step = 0
 
