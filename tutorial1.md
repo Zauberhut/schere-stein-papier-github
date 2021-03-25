@@ -18,7 +18,7 @@ let step = 0
 ```
 ```blocks
 let step = 0
-step = 0
+step += 1
 ```
 
 
