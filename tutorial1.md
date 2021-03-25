@@ -1,5 +1,5 @@
 ### @flyoutOnly true
-### Ghost blocks
+
 
 # Schrittzähler (Mint & Pepper, Zürich)
 
