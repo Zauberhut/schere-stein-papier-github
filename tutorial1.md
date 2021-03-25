@@ -3,7 +3,7 @@
 
 # Schrittzähler (Mint & Pepper, Zürich)
 
-## Introduction
+## Introduction @fullscreen
 
 In diesem Projekt verwandelst Du den micro:bit in einen einfachen Schrittzähler. 
 Jedes *wenn geschüttelt*-Ereignis erhöht eine die Variable *Zähler*. Die Anzahl Schritte wird auf dem Display angezeigt.
@@ -15,6 +15,7 @@ Für Deinen Schrittzähler benötigst Du eine Variable ``||variable:Schritte||``
 
 ```blocks
 let step = 0
+step = 0
 ```
 
 ## Step 2
@@ -24,9 +25,11 @@ Deshalb benützen wir das ``||input:wenn geschüttelt||`` Ereignis um die Schrit
 Füge den Code hinzu jedes Mal den ``||variable:Schritte||`` um 1 zu erhöhen.
     
 ```blocks    
+let step = 0
 input.onGesture(Gesture.Shake, function () {
     step += 1
 })
+step = 0
 ```
 
 ## Step 3
@@ -36,11 +39,14 @@ In den ``||input:wenn Knopf A gedrückt||``-Block fügst Du nun den ``||basic:ze
 Nun ziehst Du die Variable ``||variable:Schritte||`` in den Block.
 
 ```blocks
-let count = 0
-basic.showNumber(count)
-input.onButtonPressed(Button.A, () => {
-    basic.showNumber(Schritte);
+let step = 0
+input.onGesture(Gesture.Shake, function () {
+    step += 1
 })
+basic.forever(function() {
+    basic.showNumber(step)
+})
+step = 0
 
 ```
 
