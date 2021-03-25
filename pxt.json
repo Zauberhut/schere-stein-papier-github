@@ -1,5 +1,5 @@
 {
-    "name": "Schere Stein Papier Github",
+    "name": "TutorialSchrittzaehler",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -9,17 +9,25 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "tutorial1.md"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "targetVersions": {
-        "target": "3.1.64",
-        "targetId": "microbit"
-    },
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 0,
+                    "whitelist": 1,
+                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                }
+            }
+        }
+    }
 }

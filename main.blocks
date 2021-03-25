@@ -1,1 +1,19 @@
-<xml xmlns="https://developers.google.com/blockly/xml"/>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="k2OKk$44P;*nC=ODDcct" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="35kY8Ah0x,csiE2r]un6"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="XAR$UFm/HV0KgVy_Hbub"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="Bl?xdurC#q#w;FyRq|~~"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_set_digital_pin" id="},[Fp)DN-yt:~Tc)ka*F"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="Pr_uJfUTqA:awRg?mNDZ"><mutation min="0" max="1" label="Number" precision="0"/><field name="SLIDER">0</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="b|];:/I?wH[F+5aRAAnF"><field name="LEDS">`
+        . # # # . 
+        # . . . # 
+        # . # . # 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="_1lF]Fea=Hr%22)?N@Pm"><value name="pause"><shadow type="timePicker" id="aT^O||18WQ-le%YHrj8I"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id=",Gcgm7Z*lu*tM~iE})R}"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="6C?tp9NX)%/T]A{YJvee"><mutation min="0" max="1" label="Number" precision="0"/><field name="SLIDER">1</field></shadow></value><next><block type="device_show_leds" id="k;X^ngE_LryK#XPC.NDg"><field name="LEDS">`
+        . # # # . 
+        # . # . # 
+        # # # # # 
+        # . # . # 
+        . # # # .
+        `</field><next><block type="device_pause" id="ZIZ4]^KZ}$oYqV6~om]S"><value name="pause"><shadow type="timePicker" id=")o)tIMp+jNSy[92w-gA6"><field name="ms">500</field></shadow></value><next><block type="device_set_digital_pin" id="_Sr3OsX5h:L{cwFmeo)$"><field name="name">DigitalPin.P1</field><value name="value"><shadow type="math_number_minmax" id="*0~--WhMvP*d5/S`z(!Q"><mutation min="0" max="1" label="Number" precision="0"/><field name="SLIDER">0</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>

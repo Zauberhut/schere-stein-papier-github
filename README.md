@@ -1,6 +1,16 @@
 
 > Diese Seite bei [https://zauberhut.github.io/schere-stein-papier-github/](https://zauberhut.github.io/schere-stein-papier-github/) öffnen
 
+## Tutorials
+
+* [tutorial](/SchrittzaehlerTutorial)
+
+
+
+
+
+
+
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
