@@ -14,15 +14,14 @@ Für dieses Projekt schnallst Du den micro:bit mit unserer *Mint&Pepper Halterun
 Für Deinen Schrittzähler benötigst Du eine Variable ``||variable:step||``. In dieser Variable speicherst Du die Anzahl Schritte.
 
 ```template
-let step = 0
+let step = 0;
 
 ```
 
 ```blocks
+let step = 0
 step = 0
 step += 1
-let step = 0
-
 ```
 
 
